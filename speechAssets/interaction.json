@@ -1,0 +1,40 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "startups",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [
+                        {
+                            "name": "place",
+                            "type": "AMAZON.AT_CITY"
+                        }
+                    ],
+                    "samples": [
+                        "to find startups in {place}",
+                        "in {place} ",
+                        "{place}",
+                        "about {place}",
+                        "regarding {place}",
+                        "about whats in {place}",
+                        "to tell me more about {place}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
